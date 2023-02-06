@@ -1,0 +1,37 @@
+{
+  "name": "countries-incline-ru",
+  "version": "1.0.2",
+  "description": "Opensource library to incline countries on russian language",
+  "main": "dist/countries-incline-ru.cjs.js",
+  "module": "dist/countries-incline-ru.esm.js",
+  "browser": "dist/countries-incline-ru.umd.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YourStyle/countries.git"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "test": "node test/spec",
+    "pretest": "npm run build"
+  },
+  "author": "Anton Chukseev",
+  "license": "MIT",
+  "keywords": [
+    "language",
+    "inclines",
+    "countries inclines",
+    "high performance"
+  ],
+  "bugs": {
+    "url": "https://github.com/YourStyle/countries/issues"
+  },
+  "homepage": "https://github.com/YourStyle/countries#readme",
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "rollup": "^2.79.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}
