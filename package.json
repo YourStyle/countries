@@ -1,6 +1,6 @@
 {
   "name": "countries-incline-ru",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Opensource library to incline countries on russian language",
   "main": "dist/countries-incline-ru.cjs.js",
   "module": "dist/countries-incline-ru.esm.js",
